@@ -1,1 +1,1 @@
-lec5/lec5.md
+lec5.md
