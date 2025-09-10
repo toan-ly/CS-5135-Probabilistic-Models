@@ -60,6 +60,8 @@ $\sigma^2=\frac{rq}{p^2}$
 
 ### 7. Poisson Distribution
 Counts of rare events in given area or volume or time
+
+Used when we're interested in the number of times a certain event occurs over a period
 $$X \sim Poisson(p)$$
 $$p(x)=lim_{n\rightarrow \infty}\binom nx\frac{\lambda^x}{n}(1-\frac{\lambda}{n})^{n-x}=\frac{\lambda^x}{x!}e^{-\lambda}, x=0,1,..., for \lambda > 0$$
 

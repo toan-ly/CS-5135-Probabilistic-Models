@@ -4,9 +4,15 @@
     - many have something close to an avg life length
     - very few have extraordinarily long life length
 
+Used to model the times that elapses before $\alpha$ occurrences of randomly-occurring event. Such events are said to occur according to Poisson dist
+
 $$f(x)=\frac{1}{\Gamma(\alpha)\beta^\alpha}x^{\alpha-1}e^{-x/\beta}, x\ge 0$$
+$$or \, f(x)=\frac{x^{\alpha-1}e^{-x/\beta}}{\Gamma(\alpha)\beta^\alpha}, x\ge 0$$
 where $\Gamma(\alpha)=\int_0^\infty x^{\alpha-1}e^{-x}dx$
 - Denominator is normalizing factor
+- $\beta$: avg time between occurrences, the **scale** parameter
+- Sometimes, we use rate $\lambda=1/\theta$: avg number of occurrences per unit time
+- $\alpha$: the $\alpha^{th}$ event, the **shape** parameter
 
 => Exponential dist is a special case of Gamma dist (alpha = 1)
 
