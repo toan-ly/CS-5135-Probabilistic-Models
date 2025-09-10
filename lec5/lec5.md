@@ -13,7 +13,7 @@
 - $lim_{h\to0-}cdf(x+h)=cdf(x)$
 - $f(x)=\frac{d}{dx}cdf(x)$
 
-$E(x)=\int_{-\infty}^{\infty}xf(x)dx$
+$E(x)=\int_{-\infty}^{\infty}xf(x)dx$\
 $\sigma^2=E[(x-\mu)^2]=\int_{-\infty}^{\infty}(x-\mu)^2f(x)dx=E(x^2)-\mu^2$
 
 ## Uniform Distribution
