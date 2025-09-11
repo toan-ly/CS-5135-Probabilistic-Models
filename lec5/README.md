@@ -1,4 +1,5 @@
 ## Probability Density Function
+
 - $f(x) \ge 0, \forall x$
 - $\int_{-\infty}^\infty f(x)dx=1$
 - $p(a \le x \le b)=\int_a^b f(x)dx$
