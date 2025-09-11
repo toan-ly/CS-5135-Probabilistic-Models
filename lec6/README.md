@@ -92,15 +92,15 @@ Gamma dist used to model life lengths of components
 
 Weibull dist provides a better dist for life length data
 
-$$f(x)=\frac{\gamma}{\theta}x^{\gamma-1}e^{-x^{\gamma/\theta}},x>0$$
+$$f(x)=\frac{\gamma}{\theta}x^{\gamma-1}e^\frac{-x^{\gamma}}{\theta},x>0$$
 $\theta$ (scale parameter) and $\gamma$ (shape parameter) are positive parameters
 
 - $\gamma=1$ => exponential dist
 - $\gamma>1$, this func looks like gamma functions, with different math props
 
-$$cdf(x)=-e^{-x^{\gamma/\theta}}|_0^x=1-e^{-x^{\gamma/\theta}}, x\ge 0$$
+$$cdf(x)=-e^\frac{-x^{\gamma}}{\theta}|_0^x=1-e^\frac{-x^{\gamma}}{\theta}, x\ge 0$$
 
-$E(x)=\int_0^\infty x\frac{\gamma}{\theta}x^{\gamma-1}e^{-x^{\gamma/\theta}}dx$\
+$E(x)=\int_0^\infty x\frac{\gamma}{\theta}x^{\gamma-1}e^\frac{-x^{\gamma}}{\theta}dx$\
 Let $y=x^\gamma$ or $x=y^{1/\gamma}$
 
 $E(x)=E(y^{1/\gamma})=\int_0^\infty y^{1/\gamma}\frac{1}{\theta}e^{-y/\theta}dy=\theta^{1/\gamma}\Gamma(1+\frac{1}{\gamma})$
