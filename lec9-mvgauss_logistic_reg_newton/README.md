@@ -49,7 +49,7 @@ $\frac{\partial}{\partial\beta_j}log\ (1-p)=-\frac{1}{1-p}\frac{\partial}{\parti
 
 After a bunch of transformations:
 
-$\frac{\partial}{\partial\beta_j}log\ p=p(1-p)x_j$
+$\frac{\partial}{\partial\beta_j}p=p(1-p)x_j$
 
 Therefore,
 
